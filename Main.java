@@ -3,8 +3,8 @@ class Main
   /* Main method for testing */
   public static void main(String[] args) 
   {
-    Picture pic = new Picture("caterpillar.jpg");
-     
+    Picture pic = new Picture("blueMotorcycle.jpg");
+    pic.invertColor();
     pic.write("output.jpg");
   }
 }
